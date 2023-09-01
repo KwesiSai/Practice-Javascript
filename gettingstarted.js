@@ -1,6 +1,10 @@
-console.log("HELLO, this is my first JS file");
-prompt("Are you excited? ")
-alert("Pardon me i wanna use these cos i can, t4thanks!")
-let total=1+3;
- console.log("Adios Supremos")
- 
+let answer = prompt('Having fun?');
+if(answer==="yes",'yeah','yep','yah'){
+    console.log("Wonderful wonderful, i am glad you are havivng fun" );
+}
+else if(answer==="no"){
+    console.warn("You are not loved at home!!!!")
+}
+else{
+    console.log("hmm, enjoy the rest of your day");
+}
