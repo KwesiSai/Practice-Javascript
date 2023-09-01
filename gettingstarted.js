@@ -1,4 +1,4 @@
-let answer = prompt('Having fun?');
+let answer = prompt('Having fun?').toLowerCase();
 if(answer==="yes",'yeah','yep','yah'){
     console.log("Wonderful wonderful, i am glad you are havivng fun" );
 }
