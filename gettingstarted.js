@@ -16,3 +16,7 @@ if(password.length>=6 && password.indexOf(' ')===-1){
 else{
     console.error("Password is either too short or has a space or both!")
 }
+
+let array1 =['cat','blue',98];
+let array2= ['weel','dog',99];
+let combo= array1.concat(array2);
