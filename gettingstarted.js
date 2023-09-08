@@ -20,3 +20,12 @@ else{
 let array1 =['cat','blue',98];
 let array2= ['weel','dog',99];
 let combo= array1.concat(array2);
+
+//Creating and accessing nested arrays/multidimensional array.
+//creating an imaginary board game(three in a row)
+
+let boardgame=[['X',null,'O'],['O','X',null],[null,'O','X']];
+
+//To access array elements you need to speficy index of outer array, and index of specific inner array.
+let lastrowlastcolumn = boardgame[2][2];
+
