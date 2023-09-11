@@ -29,3 +29,33 @@ let boardgame=[['X',null,'O'],['O','X',null],[null,'O','X']];
 //To access array elements you need to speficy index of outer array, and index of specific inner array.
 let lastrowlastcolumn = boardgame[2][2];
 
+//Creating objects, Arrays + Objects nested
+coe ={
+    person1 :{
+        name: "Genesis",
+        age: 22,
+        CWA: 80
+    },
+    person2 :{
+        name: "Emily",
+        age: 21,
+        CWA: 90,
+    },
+    person3 :{
+        name: "Abraham",
+        age: 20,
+        CWA: 100
+    },
+    rating: ['firstclass','secondclass','pass']
+}
+
+ const secondclass = ['Abraham','Emily','Genesis', 
+                      provostlist= {
+                          best : 'Abraham'
+                          
+                      }
+                     
+            
+]
+
+secondclass[3].worst='Genesis'
