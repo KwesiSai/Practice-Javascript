@@ -59,3 +59,16 @@ coe ={
 ]
 
 secondclass[3].worst='Genesis'
+
+//Nested Loops
+let tables=[['Jessica','Amoah','Memphis'],
+['Jordan', 'Kwesi','Emily'],
+['Tedeku','Agbemegah','Fiadope']];
+
+for(let i=0;i<tables.length;i++ ){
+    let row=tables[i]
+     console.log(`Row ${i+1} is `) 
+     for(let j=0;j<row.length;j++){
+         console.log('    ', row[j]);
+     }
+ }
