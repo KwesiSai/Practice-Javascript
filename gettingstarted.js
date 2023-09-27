@@ -72,3 +72,9 @@ for(let i=0;i<tables.length;i++ ){
          console.log('    ', row[j]);
      }
  }
+
+ //the for of loop, newer in Javascript
+ const foods =['Banku','Waakye','Beans','Fufu','Jollof Rice']
+ for(let i of foods){
+    console.log(`One of my favorite foods is ${i}`);
+ }
