@@ -66,10 +66,10 @@ let tables=[['Jessica','Amoah','Memphis'],
 ['Tedeku','Agbemegah','Fiadope']];
 
 for(let i of tables){
-    let row=tables[i]
-     console.log(`Row ${i+1} is `) 
-     for(let j of row ){
-         console.log('    ', row[j]);
+    let row= i;
+     console.log(`Row `) 
+     for(let j of row) {
+         console.log('    ', j);
      }
  }
 
