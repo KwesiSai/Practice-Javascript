@@ -89,3 +89,6 @@
         console.log(`The sum of the numbers in the array is ${sumOfArray}`)
         return sumOfArray;
  }
+function capital(str){
+    console.log(`${str} capitalized is ${str.toUpperCase()}`)
+}
