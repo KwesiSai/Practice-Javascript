@@ -81,14 +81,39 @@
 
  
  //Functions
- function sumArray(arr){
-           let sumOfArray=0;
-        for(let i in arr ) {
-             sumOfArray+=arr[i];
-        }
-        console.log(`The sum of the numbers in the array is ${sumOfArray}`)
-        return sumOfArray;
- }
-function capital(str){
-    console.log(`${str} capitalized is ${str.toUpperCase()}`)
-}
+//  function sumArray(arr){
+//            let sumOfArray=0;
+//         for(let i in arr ) {
+//              sumOfArray+=arr[i];
+//         }
+//         console.log(`The sum of the numbers in the array is ${sumOfArray}`)
+//         return sumOfArray;
+//  }
+// function capital(str){
+//     console.log(`${str} capitalized is ${str.toUpperCase()}`)
+// }
+
+//Understanding array methods and callbacks
+//MAPS
+let movies= [
+   {
+        title: 'Kyeiwaa',
+        rating: '10/10'
+    },
+    {
+        title: 'Isakaba',
+        rating: '8.5/10'
+    },
+    {
+        title: 'Shege',
+        rating: '2/10'
+        
+    },
+    {
+        title: 'Condemn',
+        rating: '5/10'
+    }
+]
+ let movieTitles= movies.map(function(movie){
+    return movie.title;
+ })
