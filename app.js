@@ -121,7 +121,10 @@ let movies= [
 //  const rolldie= ()=>{
 //     return Math.floor(Math.random()*6)+1;
 //  }
-// const rolldie= ()=>(
-//     Math.floor(Math.random()*6)+1
-// )
+//Implicit returns
+//  const rolldie= ()=>(
+//      Math.floor(Math.random()*6)+1
+//)
 const rolldie= ()=>Math.floor(Math.random()*6)+1
+
+let newarr= movieTitles.map(upper => upper.toUpperCase())
