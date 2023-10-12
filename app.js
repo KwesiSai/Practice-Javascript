@@ -98,25 +98,31 @@
 let movies= [
    {
         title: 'Kyeiwaa',
-        rating: '10/10'
+        rating: '90',
+        year: 2003
+
     },
     {
         title: 'Isakaba',
-        rating: '8.5/10'
+        rating: '85',
+        year: 2007
     },
     {
         title: 'Shege',
-        rating: '2/10'
+        rating: '20',
+        year: 2019,
         
     },
     {
         title: 'Condemn',
-        rating: '5/10'
+        rating: '50',
+        year: 2021
     }
 ]
  let movieTitles= movies.map(function(movie){
     return movie.title;
  })
+ let goodmovies = movies.filter(yr=>yr.rating>80).map(m=>m.title)
   
 //  const rolldie= ()=>{
 //     return Math.floor(Math.random()*6)+1;
@@ -127,4 +133,11 @@ let movies= [
 //)
 const rolldie= ()=>Math.floor(Math.random()*6)+1
 
-let newarr= movieTitles.map(upper => upper.toUpperCase())
+
+let greet= name=>console.log(`Hi there, ${name}`);
+let concern= ()=>console.log('How are you doing?');
+
+greet('Abena')
+setTimeout(() => {
+    concern()
+}, 3000);
