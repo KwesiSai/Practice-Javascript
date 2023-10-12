@@ -117,3 +117,7 @@ let movies= [
  let movieTitles= movies.map(function(movie){
     return movie.title;
  })
+  
+ const rolldie= ()=>{
+    return Math.floor(Math.random()*6)+1;
+ }
