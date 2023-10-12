@@ -118,6 +118,10 @@ let movies= [
     return movie.title;
  })
   
- const rolldie= ()=>{
-    return Math.floor(Math.random()*6)+1;
- }
+//  const rolldie= ()=>{
+//     return Math.floor(Math.random()*6)+1;
+//  }
+// const rolldie= ()=>(
+//     Math.floor(Math.random()*6)+1
+// )
+const rolldie= ()=>Math.floor(Math.random()*6)+1
